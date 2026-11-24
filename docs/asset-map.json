@@ -1,0 +1,264 @@
+{
+  "figmaFile": "t9QkArlTsktH3zv7rWjW5g",
+  "assets": [
+    {
+      "path": "public/images/j2e/SJ8A2880.jpg",
+      "originalFilename": "SJ8A2880.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1T9xGGhK8D6K32EujDS9hlMGHxSmx0zjk/view?usp=drivesdk",
+      "figmaNode": "98:1472",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 1578116,
+      "sha256": "a665e1ef4ed1e0638b8d146002398b0b851ac03f0d8250ded77454c11355eecf"
+    },
+    {
+      "path": "public/images/j2e/IMG_3582.jpg",
+      "originalFilename": "IMG_3582.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/11l2gdafLyRvf2ora9geQke2AXdHTvC9N/view?usp=drivesdk",
+      "figmaNode": "98:1444",
+      "usage": "Gallery thumbnail and full photograph viewer; homepage gallery preview; learning event",
+      "kind": "Complete original Drive photograph",
+      "bytes": 1176212,
+      "sha256": "78ebdb5048853dddbf7390adfe2a90ac3376d75d000e52b2244fa29a6ea2582d"
+    },
+    {
+      "path": "public/images/j2e/IMG_3527.jpg",
+      "originalFilename": "IMG_3527.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1UsaIMtFB7HvlpWknSRFifbhbGUztGubC/view?usp=drivesdk",
+      "figmaNode": "98:1456",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 466826,
+      "sha256": "8a3bed0eeabfe59a8da2c1b4c5612619ca0cc9b57ad2c06b35e23b3b1f728393"
+    },
+    {
+      "path": "public/images/j2e/IMG_3479.jpg",
+      "originalFilename": "IMG_3479.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/13xbYq5OK8YgQUPIV1eYazsXP_IQc8Cr8/view?usp=drivesdk",
+      "figmaNode": "98:1432",
+      "usage": "Gallery thumbnail and full photograph viewer; homepage gallery preview",
+      "kind": "Complete original Drive photograph",
+      "bytes": 782786,
+      "sha256": "be462e6dd10adf85e6901cf53a0012a7503e6e159711f1ca52581145f64f32a1"
+    },
+    {
+      "path": "public/images/j2e/IMG_3468.jpg",
+      "originalFilename": "IMG_3468.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1kDvTJ2IpjnUnzjxwB9ADz-jowx5EMpuu/view?usp=drivesdk",
+      "figmaNode": "98:1464",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 452685,
+      "sha256": "e5678fc31860a51de35f38d0206c87f63b0ed560b49be10b1262685e54c0027b"
+    },
+    {
+      "path": "public/images/j2e/IMG_3398.jpg",
+      "originalFilename": "IMG_3398.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1ceK_yK7hAM96niJ3fGD6qaAPkQ_xJe_M/view?usp=drivesdk",
+      "figmaNode": "98:1468",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 538884,
+      "sha256": "c6884918c15bad7ad241c1478a528cfea47a0c89d308b546aa7de14dcb9cb95c"
+    },
+    {
+      "path": "public/images/j2e/IMG_3370.jpg",
+      "originalFilename": "IMG_3370.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1ahm5BIJrAU7wg03L-CGw428faMnInN4n/view?usp=drivesdk",
+      "figmaNode": "98:1440",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 891080,
+      "sha256": "14a29e276f5faebc26844fed97692b50abe3a7b68a11c26baba9beccd8a43f9b"
+    },
+    {
+      "path": "public/images/j2e/IMG_3364.jpg",
+      "originalFilename": "IMG_3364.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1qbIXJmQ0tV5ykmJISzz8-ez4AfpW31Co/view?usp=drivesdk",
+      "figmaNode": "98:1448",
+      "usage": "Gallery thumbnail and full photograph viewer; desktop homepage community photograph; leadership event",
+      "kind": "Complete original Drive photograph",
+      "bytes": 804901,
+      "sha256": "31502d1e0dbf5a1ec9737bc56f734dc46debd755ca8e6431b3e095928950f0b6"
+    },
+    {
+      "path": "public/images/j2e/IMG_3118.jpg",
+      "originalFilename": "IMG_3118.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1-TMGEbvGdothG9rHjhyXwNB_-GaiO-Db/view?usp=drivesdk",
+      "figmaNode": "39:94 / 39:272",
+      "usage": "Homepage community photographs",
+      "kind": "Complete original Drive photograph",
+      "bytes": 5301735,
+      "sha256": "153163bbc6f083c9a06e28c65d4835d1f8bb8409bb7ae5f13948870810824827"
+    },
+    {
+      "path": "public/images/j2e/IMG_3090.jpg",
+      "originalFilename": "IMG_3090.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1AuUROxgO-xfCNYu5nrAQeIjxqknX2ox9/view?usp=drivesdk",
+      "figmaNode": "98:1428",
+      "usage": "Gallery thumbnail and full photograph viewer; gallery hero; mobile homepage community photograph",
+      "kind": "Complete original Drive photograph",
+      "bytes": 7499798,
+      "sha256": "cd1e3039c8e55d556c8252ec8b266c035a4127b876dab4d41ee0cc5de85afedb"
+    },
+    {
+      "path": "public/images/j2e/IMG_3018.jpg",
+      "originalFilename": "IMG_3018.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1K2p438ToRvIIIXpM7ZF-FCGnrym2eoXe/view?usp=drivesdk",
+      "figmaNode": "98:1452",
+      "usage": "Gallery thumbnail and full photograph viewer; homepage gallery preview",
+      "kind": "Complete original Drive photograph",
+      "bytes": 3396881,
+      "sha256": "021db1ca81eeef4b5f909239e2b250c6e4d0e9e439ceb1dba5cc4a6e284f5fef"
+    },
+    {
+      "path": "public/images/j2e/IMG_2913.jpg",
+      "originalFilename": "IMG_2913.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/18vLtvnVwgVhTOjlYt5uzzHaAco1CRmvx/view?usp=drivesdk",
+      "figmaNode": "39:95 / 39:273",
+      "usage": "Homepage community photographs",
+      "kind": "Complete original Drive photograph",
+      "bytes": 8575708,
+      "sha256": "ea9ba4709f0409795f3c6b9a45a2baf40fe2a04e5803a2f10a470da56542336d"
+    },
+    {
+      "path": "public/images/j2e/IMG_2828.jpg",
+      "originalFilename": "IMG_2828.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1zLrrGzAU9ZD3e3ke7NFEJcm8MI_A6b_u/view?usp=drivesdk",
+      "figmaNode": "98:1436",
+      "usage": "Gallery thumbnail and full photograph viewer; homepage gallery preview",
+      "kind": "Complete original Drive photograph",
+      "bytes": 5560547,
+      "sha256": "99ec29020a8b0f040b7227837aafef24678ccd2975f684181df9ef73be463906"
+    },
+    {
+      "path": "public/images/j2e/IMG_2607.jpg",
+      "originalFilename": "IMG_2607.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/1kNeAlK9f8DWrgpdpKCMq0JlvOxJTR6rS/view?usp=drivesdk",
+      "figmaNode": "98:1460",
+      "usage": "Gallery thumbnail and full photograph viewer",
+      "kind": "Complete original Drive photograph",
+      "bytes": 3062293,
+      "sha256": "ff06ddc1258d2d71be3f1990313630eb2269fde0387e940e3a4108f18edf5861"
+    },
+    {
+      "path": "public/images/j2e/IMG_2600.jpg",
+      "originalFilename": "IMG_2600.jpg",
+      "sourceUrl": "https://drive.google.com/file/d/15G7BUuWP2UjaISlBDOU6yOocKU2wRzky/view?usp=drivesdk",
+      "figmaNode": "39:77 / 39:256",
+      "usage": "Homepage video poster",
+      "kind": "Complete original Drive photograph",
+      "bytes": 9565437,
+      "sha256": "cf719ef6d989ba8971a0580dc8561df9374f39522df5e49800712886346b78a8"
+    },
+    {
+      "path": "public/images/j2e/wordmark.svg",
+      "figmaNode": "42:258",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=42-258",
+      "usage": "Header, desktop footer and mobile menu",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 14244,
+      "sha256": "40fe962844b49e917a4b6a69dca4d071d20023e11ae63e8dd16f5c08bb24b97c"
+    },
+    {
+      "path": "public/images/j2e/wordmark-mobile-footer.svg",
+      "figmaNode": "38:135",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-135",
+      "usage": "Mobile footer",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 14190,
+      "sha256": "aa49fca49d4fba1e66a649a268073c775cfda2b26a4e29114c1e0cbdffca4244"
+    },
+    {
+      "path": "public/images/j2e/journey-motif.svg",
+      "figmaNode": "38:200",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-200",
+      "usage": "Homepage hero and the events/gallery calls to action; app icon",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 986,
+      "sha256": "62c70e9054bdf7db1b946e21ab1b856aade6e48c5fea2fa6edecb733c50dcc41"
+    },
+    {
+      "path": "public/images/j2e/arrow-up-right-ink.svg",
+      "figmaNode": "38:84",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-84",
+      "usage": "Light buttons and links",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 315,
+      "sha256": "fe95e887420d2f1d949dd6e1fff58872e6229ec6c766c7da12a96998a74ef0e4"
+    },
+    {
+      "path": "public/images/j2e/arrow-up-right-paper.svg",
+      "figmaNode": "38:88",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-88",
+      "usage": "Dark buttons and viewer original link",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 311,
+      "sha256": "97dea8132b1d4d951fc8fd9f8fbed9373b6b00583fe4f9579a806d4ab9c67c7d"
+    },
+    {
+      "path": "public/images/j2e/arrow-right-paper.svg",
+      "figmaNode": "38:96",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-96",
+      "usage": "Photo viewer previous/next controls",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 316,
+      "sha256": "bf952f2e9f24de370ee384fb9797c3c73504c3b6d7694e54cd3b77c0cde327a3"
+    },
+    {
+      "path": "public/images/j2e/play-ink.svg",
+      "figmaNode": "38:99",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-99",
+      "usage": "Homepage video controls",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 796,
+      "sha256": "ddb5ccc8bc3034c7903f8d8efa3c40d377a559e3043d9f65f9adf1b259c98d03"
+    },
+    {
+      "path": "public/images/j2e/plus-paper.svg",
+      "figmaNode": "38:110",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-110",
+      "usage": "Collapsed FAQ controls",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 307,
+      "sha256": "e5d25f7eac5b13e88e51f6f68bec70e5b97fa2f817e8498a6cef11074cf935f3"
+    },
+    {
+      "path": "public/images/j2e/minus-paper.svg",
+      "figmaNode": "38:116",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-116",
+      "usage": "Expanded FAQ control",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 205,
+      "sha256": "d2c0f785f01fe015338252d5a5716cd131d8e5c1ec245eb7c6a5dc9a16d8353e"
+    },
+    {
+      "path": "public/images/j2e/menu-ink.svg",
+      "figmaNode": "38:121",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-121",
+      "usage": "Mobile navigation trigger",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 414,
+      "sha256": "478470e82dafc1336bba259c7fd22571965cc4880969d0455c3c11033d5b433c"
+    },
+    {
+      "path": "public/images/j2e/x-ink.svg",
+      "figmaNode": "38:130",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-130",
+      "usage": "Mobile menu close control",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 315,
+      "sha256": "513021facff8fd445176de50a68eb26e24c665b4a5936aa946f378f935a08141"
+    },
+    {
+      "path": "public/images/j2e/x-paper.svg",
+      "figmaNode": "38:134",
+      "sourceUrl": "https://www.figma.com/design/t9QkArlTsktH3zv7rWjW5g/Journey-to-Excellence?node-id=38-134",
+      "usage": "Photo viewer close control",
+      "kind": "Exact isolated Figma SVG export",
+      "bytes": 311,
+      "sha256": "86d1d0fd1ebac29e5eb98157146f214fe4e57fa2545df6f28f93fb3d0231d843"
+    }
+  ],
+  "unresolvedAssets": []
+}

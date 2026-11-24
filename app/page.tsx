@@ -1,69 +1,283 @@
 import Image from "next/image";
+import Link from "next/link";
+import { HomeIntro } from "@/components/home-intro";
+import { RailSection } from "@/components/section";
+import { Button } from "@/components/button";
+import { SiteFooter } from "@/components/site-footer";
+import { FAQAccordion } from "@/components/faq";
+import { homeMoments, photos } from "@/lib/photos";
+import { links } from "@/lib/links";
+
+const benefits = [
+  {
+    category: "01 / LEARN",
+    title: "Fresh perspectives.",
+    description:
+      "Explore workshops and practical approaches shared by district educators and partners.",
+  },
+  {
+    category: "02 / CONNECT",
+    title: "People who get it.",
+    description:
+      "Meet colleagues beyond your own school. Make room for conversations that keep going.",
+  },
+  {
+    category: "03 / TAKE IT BACK",
+    title: "Ideas for your classroom.",
+    description:
+      "Leave with strategies, resources and a fresh perspective to put into practice.",
+  },
+  {
+    category: "04 / GROW",
+    title: "A shared purpose.",
+    description:
+      "Celebrate the care, curiosity and everyday work that move education forward.",
+  },
+];
+
+function CommunityPhotos() {
+  return (
+    <div className="site-container grid grid-cols-2 items-end gap-4 pb-16 md:grid-cols-[540fr_300fr_492fr] md:gap-6 md:pt-4">
+      <div className="relative col-span-2 h-[228px] overflow-hidden md:col-span-1 md:h-[360px]">
+        <Image
+          quality={90}
+          src={photos[0].src}
+          alt={photos[0].alt}
+          fill
+          sizes="(max-width: 767px) calc(100vw - 48px), 0px"
+          className="object-cover md:hidden"
+        />
+        <Image
+          quality={90}
+          src={photos[5].src}
+          alt={photos[5].alt}
+          fill
+          sizes="(max-width: 767px) 0px, 38vw"
+          className="hidden object-cover md:block"
+        />
+        <span className="absolute inset-0 hidden bg-black/30 md:block" />
+      </div>
+      <div className="relative h-[217px] overflow-hidden md:h-[450px]">
+        <Image
+          quality={90}
+          src="/images/j2e/IMG_3118.jpg"
+          alt="An educator standing with colleagues at Summer Learning Week."
+          fill
+          sizes="(max-width: 767px) calc((100vw - 64px) / 2), 22vw"
+          className="object-cover"
+        />
+        <span className="absolute inset-0 hidden bg-black/20 md:block" />
+      </div>
+      <div className="relative h-[217px] overflow-hidden md:h-[360px]">
+        <Image
+          quality={90}
+          src="/images/j2e/IMG_2913.jpg"
+          alt="Educators exchange ideas in the atrium during a community gathering."
+          fill
+          sizes="(max-width: 767px) calc((100vw - 64px) / 2), 35vw"
+          className="object-cover"
+        />
+        <span className="absolute inset-0 hidden bg-black/20 md:block" />
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+      <main id="main-content">
+        <HomeIntro />
+        <div className="bg-ink text-white">
+          <RailSection
+            label={
+              <>
+                GOOD IDEAS TRAVEL.
+                <br />
+                START YOUR JOURNEY.
+              </>
+            }
+            className="py-16 md:py-24"
           >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <h2 className="display-text">
+              Learn with purpose.
+              <br />
+              Connect with people.
+              <br />
+              Bring it back.
+            </h2>
+            <p className="body-text mt-8 max-w-[810px] text-muted md:mt-12 md:text-[24px] md:leading-[30px] md:tracking-[-0.5px]">
+              A shared space for educators to learn from one another, challenge
+              familiar thinking and bring fresh ideas back to every classroom.
+            </p>
+          </RailSection>
+          <CommunityPhotos />
+          <RailSection
+            label={
+              <>
+                <span className="md:hidden">SUMMER LEARNING WEEK / 2026</span>
+                <span className="hidden md:inline">
+                  SUMMER LEARNING
+                  <br />
+                  WEEK / 2026
+                </span>
+              </>
+            }
+            className="pb-16 md:pb-24 md:pt-8"
           >
-            Documentation
-          </a>
+            <dl className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-[60px]">
+              {[
+                { value: "≈600", label: "Educators & staff registered" },
+                { value: "100+", label: "Sessions offered" },
+                { value: "3 days", label: "Of learning and connection" },
+              ].map((stat, index) => (
+                <div
+                  key={stat.label}
+                  className="flex flex-col gap-6 px-[21px] md:gap-3 md:px-0"
+                >
+                  <dt className="small-text order-2 text-muted">
+                    {index === 2 ? (
+                      <>
+                        <span className="md:hidden">
+                          Days of learning and connection
+                        </span>
+                        <span className="hidden md:inline">{stat.label}</span>
+                      </>
+                    ) : (
+                      stat.label
+                    )}
+                  </dt>
+                  <dd className="display-text order-1">
+                    {index === 2 ? (
+                      <>
+                        <span className="md:hidden">3</span>
+                        <span className="hidden md:inline">{stat.value}</span>
+                      </>
+                    ) : (
+                      stat.value
+                    )}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </RailSection>
+          <RailSection
+            id="why-attend"
+            label="WHY ATTEND"
+            className="pb-16 md:pb-24 md:pt-8"
+          >
+            <h2 className="display-text">
+              Make space for
+              <br />
+              what’s next.
+            </h2>
+            <div className="mt-8 grid grid-cols-1 gap-8 md:mt-12 md:grid-cols-2 md:gap-x-[60px] md:gap-y-12">
+              {benefits.map((benefit) => (
+                <article
+                  key={benefit.category}
+                  className="flex flex-col gap-4 border-t border-line pt-6"
+                >
+                  <p className="eyebrow text-lime">{benefit.category}</p>
+                  <h3 className="text-[40px] leading-[46px] tracking-[-1.2px]">
+                    {benefit.title}
+                  </h3>
+                  <p className="body-text text-muted">{benefit.description}</p>
+                </article>
+              ))}
+            </div>
+          </RailSection>
+          <RailSection
+            label="MEMORABLE MOMENTS"
+            className="pb-16 pt-6 md:pb-24 md:pt-16"
+          >
+            <div className="flex items-end justify-between gap-6">
+              <h2 className="display-text">
+                Big ideas.
+                <br />
+                Real connections.
+              </h2>
+              <Button
+                href="/gallery"
+                tone="outline-light"
+                className="hidden shrink-0 md:inline-flex"
+              >
+                View gallery
+              </Button>
+            </div>
+            <div className="mt-8 grid grid-cols-1 gap-8 md:mt-12 md:grid-cols-2 md:gap-x-[60px] md:gap-y-12">
+              {homeMoments.map((moment) => (
+                <Link
+                  href="/gallery"
+                  key={moment.title}
+                  className="photo-trigger flex min-w-0 flex-col gap-4"
+                  aria-label={`${moment.title} View photo gallery`}
+                >
+                  <div className="relative h-[320px] w-full overflow-hidden">
+                    <Image
+                      quality={90}
+                      src={moment.photo.src}
+                      alt={moment.photo.alt}
+                      fill
+                      sizes="(max-width: 767px) calc(100vw - 48px), 36vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <p className="eyebrow text-muted">{moment.category}</p>
+                  <p className="card-text">{moment.title}</p>
+                </Link>
+              ))}
+            </div>
+            <Button
+              href="/gallery"
+              tone="outline-light"
+              className="mt-8 w-full md:hidden"
+            >
+              View gallery
+            </Button>
+          </RailSection>
+          <RailSection label="A LITTLE CLARITY" className="pb-16 pt-6 md:py-24">
+            <h2 className="heading-text mb-8 md:mb-12">
+              A few good questions.
+            </h2>
+            <FAQAccordion />
+          </RailSection>
+          <RailSection
+            label="YOUR NEXT CHAPTER"
+            className="pb-20 pt-6 md:pb-[120px] md:pt-16"
+          >
+            <div className="flex flex-col gap-6 border-2 border-dashed border-white p-6 md:gap-8 md:p-10">
+              <p className="eyebrow text-lime">
+                COME CURIOUS.
+                <br className="md:hidden" />
+                <span className="hidden md:inline"> </span>LEAVE INSPIRED.
+              </p>
+              <h2 className="heading-text">
+                Bring your curiosity.
+                <br />
+                We’ll bring the community.
+              </h2>
+              <p className="body-text max-w-[820px] text-muted md:text-[24px] md:leading-[30px] md:tracking-[-0.5px]">
+                Create your event account to discover available sessions and
+                build your personal schedule.
+              </p>
+              <div className="flex flex-col gap-6 md:flex-row-reverse md:items-center md:justify-end">
+                <Button href={links.signup} external tone="lime">
+                  Create your account
+                </Button>
+                <a
+                  href={links.login}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="small-text underline md:no-underline md:hover:underline"
+                >
+                  Already registered? Sign in
+                </a>
+              </div>
+            </div>
+          </RailSection>
         </div>
       </main>
-    </div>
+      <SiteFooter home />
+    </>
   );
 }
