@@ -64,7 +64,7 @@ function CommunityPhotos() {
           alt="An educator speaking into a microphone beside her presentation laptop."
           fill
           sizes="(max-width: 767px) calc((100vw - 64px) / 2), 22vw"
-          className="object-cover"
+          className="object-cover object-top"
         />
         <span className="absolute inset-0 hidden bg-black/20 md:block" />
       </div>
