@@ -60,8 +60,8 @@ function CommunityPhotos() {
       <div className="relative h-[217px] overflow-hidden md:h-[450px]">
         <Image
           quality={90}
-          src="/images/j2e/IMG_3118.jpg"
-          alt="An educator standing with colleagues at Summer Learning Week."
+          src="/images/j2e/IMG_3398.jpg"
+          alt="An educator speaking into a microphone beside her presentation laptop."
           fill
           sizes="(max-width: 767px) calc((100vw - 64px) / 2), 22vw"
           className="object-cover"
@@ -127,7 +127,7 @@ export default function Home() {
           >
             <dl className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-[60px]">
               {[
-                { value: "≈600", label: "Educators & staff registered" },
+                { value: "600+", label: "Educators & staff registered" },
                 { value: "100+", label: "Sessions offered" },
                 { value: "3 days", label: "Of learning and connection" },
               ].map((stat, index) => (

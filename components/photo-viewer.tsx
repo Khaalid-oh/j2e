@@ -93,7 +93,7 @@ export function PhotoViewer({
           </h2>
         </div>
         <a
-          href={photo.driveUrl}
+          href={photo.src}
           target="_blank"
           rel="noopener noreferrer"
           className="viewer-original small-text inline-flex items-center gap-2 justify-self-start hover:underline"
